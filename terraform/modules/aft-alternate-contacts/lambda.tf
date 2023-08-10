@@ -33,7 +33,7 @@ resource "aws_lambda_function" "aft_alternate_contacts_add_lambda" {
   tracing_config {
     mode = "Active"
   }
-  reserved_concurrent_executions = 1
+  reserved_concurrent_executions = 10
 }
 
 resource "aws_cloudwatch_log_group" "aft_alternate_contacts_add_lambda_log" {
