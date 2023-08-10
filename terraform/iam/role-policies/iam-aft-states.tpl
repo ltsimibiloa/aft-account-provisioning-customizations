@@ -4,9 +4,7 @@
         {
             "Effect": "Allow",
             "Action": "states:Start*",
-            "Resource": [
-                "${alternate_contacts_customizations_sfn_arn}", "${account_provisioning_customizations_sfn_arn}"
-            ]
+            "Resource": "${alternate_contacts_customizations_sfn_arn}"
         },
         {
             "Effect": "Allow",
