@@ -1,4 +1,4 @@
-#!/Users/ltsimibiloa/testlab/controltower/aft-account-provisioning-customizations/modules/aft-alternate-contacts/lambda/aft_alternate_contacts_validate/build/aft_alternate_contacts_validate/bin/python3.11
+#!/Users/ltsimibiloa/testlab/controltower/aft-account-provisioning-customizations/terraform/modules/aft-alternate-contacts/lambda/aft_alternate_contacts_validate/build/aft_alternate_contacts_validate/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys
